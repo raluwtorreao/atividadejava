@@ -1,0 +1,22 @@
+package trabalhosenai;
+import java.util.Scanner;
+
+public class questao4 {
+	public static void main (String[] args) {
+		Scanner analise = new Scanner (System.in);
+		int imprimir;
+		
+		System.out.println("Informe o nome do usuario: ");
+		String usuario = analise.nextLine();
+		
+		System.out.println("Quantas vezes deseja que o nome seja repetido? ");
+		imprimir = analise.nextInt();
+		
+		for (int repeticao = 0; repeticao < imprimir; repeticao++) {
+			System.out.println(usuario);
+		}
+		
+		
+	}
+
+}
