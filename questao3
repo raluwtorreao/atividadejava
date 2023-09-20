@@ -1,0 +1,15 @@
+package trabalhosenai;
+import java.util.Scanner;
+
+public class questao3 {
+	public static void main (String[] args) {
+		Scanner analise = new Scanner (System.in);
+		
+		System.out.println("Informe o nome do usuario: ");
+		String nome = analise.nextLine();
+		
+		for (int repeticao = 0; repeticao < 10; repeticao++) {
+			System.out.println(nome);
+		}
+	}
+}
