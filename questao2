@@ -1,0 +1,15 @@
+package trabalhosenai;
+import java.util.Scanner;
+
+public class questao2 {
+	public static void main(String[] args) {
+        int soma = 0;
+
+        for (int num = 1; num <= 15; num++) {
+            soma += num;
+        }
+
+        System.out.println("A soma de 1 a 15 é: " + soma);
+	}
+
+}
