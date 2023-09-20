@@ -1,18 +1,9 @@
 package trabalhosenai;
-import java.util.Scanner;
 
-public class questao10 {
-	public static void main(String[] args) {
-		 Scanner analise = new Scanner (System.in);
-		 
-		 System.out.println("Digite um número: ");
-		 int numero = analise.nextInt();
-		 
-		 for(int mult = 1; mult <= 10; mult++) {
-			 int resultado = numero * mult;
-			 System.out.println(numero + "x" + mult + "=" + resultado);
-			 
-		 }
-	
+public class questao1 {
+	public static void main (String[] args) {
+		for (int vezes = 0; vezes < 20; vezes++) {
+			System.out.println("Eu gosto de estudar Java!!!");
+		}
 	}
 }
