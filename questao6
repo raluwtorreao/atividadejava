@@ -1,0 +1,20 @@
+package trabalhosenai;
+import java.util.Scanner;
+
+public class questao6 {
+	public static void main (String[] args) {
+		Scanner analise = new Scanner (System.in);
+		int somaidades = 0;
+		
+		for (int pessoa = 1; pessoa <= 20; pessoa ++) {
+			System.out.println("Digite a idade da pessoa " + pessoa + ": ");
+			int idades = analise.nextInt();
+			somaidades += idades;
+		}
+		
+		System.out.println("A soma das idades é igual à: " + somaidades);
+		
+		
+	}
+
+}
