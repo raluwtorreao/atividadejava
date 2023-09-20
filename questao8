@@ -1,0 +1,21 @@
+package trabalhosenai;
+import java.util.Scanner;
+
+public class questao8 {
+	 public static void main(String[] args) {
+		 Scanner analise = new Scanner (System.in);
+		 int contador = 0;
+		 
+		 for ( int pessoas = 1; pessoas <= 20; pessoas++) {
+			 System.out.println("Digite a idade da pessoa " + pessoas + ": ");
+			 int idade = analise.nextInt();
+			 
+			 if(idade >= 18) {
+				 contador++;
+			 }
+		 }
+		 
+		 System.out.println("O número de indivíduos maiores de idade é igual à " + contador);
+		 
+	 }
+}
